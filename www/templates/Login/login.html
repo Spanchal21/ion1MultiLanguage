@@ -1,0 +1,24 @@
+<ion-view title="login">
+    <ion-content class="view login-page">
+        <div class="logo"><img ng-src="img/logo.png"></div>
+        <div class="custom-login-form">
+            <form name="Loginform" ng-submit="doLogin(Loginform,val)" novalidate>
+                <div class="form-box">
+                    <label class="item item-input" ng-class="{'has-error-lr': Loginform.Uname.$invalid && Loginform.$submitted, 'valid-lr' : Loginform.Uname.$valid && Loginform.$submitted}">
+                        <input type="text" name="Uname" placeholder="Username" ng-model="val.Uname" required>
+                    </label>
+                    <label class="item item-input" ng-class="{'has-error-lr': Loginform.Pword.$invalid && Loginform.$submitted, 'valid-lr' : Loginform.Pword.$valid && Loginform.$submitted}">
+                        <input type="password" name="Pword" placeholder="Password" ng-model="val.Pword" required>
+                    </label>
+                </div>
+                <div class="btn-box">
+                    <button class="button" type="submit">Login</button>
+                </div>
+            </form>
+            </br>
+           <!--  <div class="btn-box">
+                <a class="button" href="#/registration">Register</a>
+            </div> -->
+        </div>
+    </ion-content>
+</ion-view>

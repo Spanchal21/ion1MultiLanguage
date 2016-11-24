@@ -1,0 +1,14 @@
+<ion-modal-view class="ion-nifty-modal report-modal custom-popup-menu" ng-controller="menuController">
+    <!--<div class="ion-modal-content-custom">-->
+    <div class="menu-popup-box">
+        <div class="header-box">
+            <h2>Menu</h2>
+            <button ng-click="fnClose()">Close</button>
+        </div>
+         <ul>
+            <li><a href="#/app/takePhoto" ui-sref-active="active" class="item" ng-click="fnClose()">Take Photo</a></li>
+            <li><a href="#/app/tab/incomeStatement" ui-sref-active="active" class="item" ng-click="fnClose()">Income Statement</a></li>
+            <li><a href="" ng-click="fnSignout()" ui-sref-active="active" class="item">Logout</a></li>
+        </ul>
+    </div>
+</ion-modal-view>

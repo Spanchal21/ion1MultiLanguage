@@ -1,0 +1,18 @@
+﻿<ion-view view-title="{{'lenguage' | translate}}" hide-back-button="true" class="common-box">
+    <ion-nav-bar class="bar-stable nav-container ">
+    </ion-nav-bar>
+    <ion-content class="view login-page has-header" ng-controller="lenguageCtrl">
+        <div class="custom-login-form">
+            <form name="" ng-submit="" novalidate>
+                <!-- <h2 translate="lenguage">English</h2> -->
+                <br/>
+                 <h2 class="light"> {{"hello_message" | translate}} </h2>
+                <br/>
+                <br/>
+                <button class="button " ng-click="ChangeLanguage('en')">English</button>
+                <button class="button " ng-click="ChangeLanguage('gu')">ગુજરાતી</button>
+                <button class="button " ng-click="ChangeLanguage('hi')">हिन्दी </button>
+            </form>
+        </div>
+    </ion-content>
+</ion-view>

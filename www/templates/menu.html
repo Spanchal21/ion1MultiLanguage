@@ -1,0 +1,28 @@
+<ion-side-menus enable-menu-with-back-views="false" ng-controller="menuController">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-balanced">
+            <ion-nav-back-button>
+            </ion-nav-back-button>
+            <ion-nav-buttons side="left">
+               <!--  <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+                </button> -->
+                   <button class="button button-icon button-clear ion-navicon fade-in-scale" ng-click="fnOpenMenu(fade-in-scale)">
+                </button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent"></ion-nav-view>
+    </ion-side-menu-content>
+   <!--  <ion-side-menu side="left" width='250' class="custom-menu">
+        
+        <ion-content>
+            <ul class="list">
+                <a href="#/app/dashboard" ui-sref-active="active" class="item logo-link" menu-close>
+                    <img src="img/logo.png" alt="">
+                </a>
+                <a href="#/app/takePhoto" ui-sref-active="active" class="item item-icon-left" menu-close><i class="icon ion-home"></i>Take Photo</a>
+                <a href="#/app/tab/incomeStatement" ui-sref-active="active" class="item item-icon-left" menu-close><i class="icon ion-home"></i>Income Statement</a>
+                <a href="" ng-click="fnSignout()" ui-sref-active="active" class="item item-icon-left" menu-close><i class="icon ion-log-out"></i>Logout</a>
+            </ul>
+        </ion-content>
+    </ion-side-menu> -->
+</ion-side-menus>

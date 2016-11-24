@@ -1,0 +1,14 @@
+﻿<ion-view view-title="Photo" class="common-box" ion-back-button="hide">
+    <ion-content class="view has-header" >
+        <div class="img-upload-box" ng-init="fntakephoto()">
+            <img src="" alt="" name="ClientImage" id="myImage" class="client-img-box" />
+        </div>
+    </ion-content>
+    <div ng-if="Image != undefine" class="bar bar-footer take-photo-footer">
+        <button class="button" ng-click="fntakephoto()">Cancel</button>
+        <button class="button" ng-click="fnUpload()">Upload</button>
+    </div>
+    <div ng-if="Image == undefine" class="bar bar-footer take-photo-footer">
+        <button class="button" ng-click="fntakephoto()">Take Photo</button>
+    </div>
+</ion-view>

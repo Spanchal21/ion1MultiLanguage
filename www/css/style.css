@@ -1,0 +1,79 @@
+body { cursor: url("http://ionicframework.com/img/finger.png"), auto; color: white; }
+.bar-balanced { background: #2C2C2E !important; border-color: #5D5D5D !important; }
+.bar-balanced .button, .bar.bar-balanced .title{color: #FDD137 !important;}
+.menu { background: #5D5D5D; }
+.pane, .view { background: #2C2C2E; position: absolute; top: 0; right: 0; bottom: 0; left: 0; overflow-y: scroll; overflow-x: hidden; width: 100%;}
+.menu .item-header { padding-top: 25px; opacity: 1.0; }
+.menu .item { background-color: transparent; color: #ffffff; border: none; border-color: #E7E7E7; padding-top: 25px; padding-bottom: 15px; }
+.menu .bar-header { background-color: #174790; }
+
+/*custom css start*/
+
+/*for ios*/
+.platform-ios .tabs-striped .tabs, .platform-ios .tabs { padding: 0; }
+
+/*for ios end*/
+
+/*for android*/
+.platform-android .from-box { padding: 45px 0 0 0; }
+
+/*for android end*/
+input::-moz-placeholder, textarea::-moz-placeholder { color: #fff; opacity: 1; }
+.item { background: #5D5D5D; border: none; padding: 12px; }
+.item.activated { background: #4C4B4B; }
+.view .item { color: #FDD137; }
+.item-icon-left .icon, .item-icon-right .icon { font-size: 20px; }
+.row { padding: 12px; }
+.row + .row { margin: 0; padding: 0; }
+.data-box { background: #5D5D5D; margin: 0 0 20px 0; }
+.data-grid-box .row { border-top: 1px solid #898989; padding: 0; }
+.data-grid-box .col-50, .data-grid-box .col-33 { padding: 10px; }
+.data-grid-box .left { border-right: 1px solid #898989; }
+.tabs-striped .tabs, .tabs { background: #5D5D5D; border: none; height: 44px; line-height: 44px; }
+.tabs-striped .tab-item, .tab-item { max-width: 50%; color: #fff; }
+.tabs-striped .tab-item.tab-item-active, .tab-item.tab-item-active, .tabs-striped .tab-item.activated, .tab-item.activated { background: #FDD137; }
+.popup-container .popup { width: 300px; }
+.common-box .nav-container { background: none; }
+.common-box .bar-stable .button { color: #FDD137; }
+.common-box .has-header { padding-top: 45px; }
+.common-box .bar .button.button-icon::before { font-size: 22px; }
+.common-box .bar.bar-stable .title { color: #FDD137; }
+.common-box .bar { border-bottom: 1px solid #4f4f4f; }
+.common-box .bar-footer { background: #35353D; border: none; padding: 5px 12px; }
+.button { background: #FDD137; color: #fff; padding: 0 30px; text-transform: uppercase; font-weight: bold; line-height: 35px; min-height: 35px; }
+.button:hover { color: #fff; }
+.button.activated { background: #D6AF2F; border-color: #D6AF2F; }
+.disp-table { display: table; width: 100%; height: 100%; }
+.disp-cell { display: table-cell; vertical-align: middle; }
+.logo { text-align: center; margin: 30px 0; }
+.login-page { margin: 0; background: url("../img/login-bg.jpg") no-repeat center center; height: 100%; width: 100%; background-size: cover; -ms-background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; }
+.login-page .custom-login-form { padding: 20px; }
+.login-page .custom-login-form .item { background: none; border: none; border-bottom: 1px solid #fff; margin: 0 0 10px 0; padding: 0; }
+.login-page .custom-login-form input { color: #fff; padding: 20px 0; height: auto; }
+.login-page .custom-login-form .form-box { margin: 0 0 40px 0; }
+.login-page .custom-login-form .btn-box { text-align: center; }
+.login-page .register-btn { position: fixed; left: 0; bottom: -30%; width: 100%; text-align: center; }
+.login-page .register-btn .button { color: #FDD137; background: #fff; }
+.menu.custom-menu .item { padding: 15px 10px 15px 54px; }
+.menu.custom-menu .logo-link { padding: 10px 16px 10px 16px; margin: 0; }
+.menu.custom-menu .logo-link img { width: 140px; margin: 0 auto; display: block; }
+.report-box, .income-box { color: #FDD137; }
+.report-box .data-grid-box .left { color: #fff; }
+.take-photo-footer .button { background: none; color: #FDD137; }
+.img-upload-box { padding: 0 12px; }
+.img-upload-box .client-img-box { width: 100%; }
+.popup-body { color: #2C2C2E; }
+
+/*custom css end*/
+/*menu css*/
+.modal-backdrop-bg { -webkit-transition: opacity 300ms ease-in-out; transition: opacity 300ms ease-in-out; background:#fff; opacity: 0.2;}
+.custom-popup-menu{background: #2C2C2E;}
+.custom-popup-menu .header-box{padding: 10px;}
+.custom-popup-menu h2{color: #FDD137; font-size: 16px; float: left; text-transform: uppercase;}
+.custom-popup-menu .item{padding: 12px; border-top:1px solid #FDD137; display: block; background: none;}
+.custom-popup-menu .header-box{display: table; width: 100%;}
+.custom-popup-menu button{background: none; float: right; color: #fff; border: none;}
+.ion-nifty-modal {height: 185px !important;  width: 90%; min-height: 0 !important; top: 25%; left: 5%; right: 5%; bottom: 5%; border-radius: 5px; -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); }
+.ion-nifty-modal .ion-modal-content-custom { width: 100%; height: 100%; color: #FFF; background-color: #333; border-radius: 10px; }
+.modal-open .modal-backdrop { pointer-events: none; background: rgba(44, 44, 46, 0.3);}
+/*menu css end*/
